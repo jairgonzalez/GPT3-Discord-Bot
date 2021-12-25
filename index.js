@@ -36,6 +36,7 @@ Marv: Nothing much. You?\n`;
         stream: false,
         stop: ["\n", "\n\n"],
       });
+      console.log(`${gptResponse.data.choices[0].text.substring(5)}`);
       message.reply(`${gptResponse.data.choices[0].text.substring(5)}`);
       prompt += `${gptResponse.data.choices[0].text}\n`;
     })();
