@@ -1,0 +1,25 @@
+{
+  "name": "gpt3-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot using GPT3 neural Engine on OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairgonzalez/GPT3-Discord-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jairgonzalez/GPT3-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/jairgonzalez/GPT3-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0",
+    "openai-api": "^1.2.6"
+  }
+}
